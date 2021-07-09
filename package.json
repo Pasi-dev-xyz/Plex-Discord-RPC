@@ -1,0 +1,31 @@
+{
+  "name": "plex-discord-rpc",
+  "version": "1.0.0",
+  "description": "Sync local Plex client instance to Discord using Discord RPC",
+  "main": "src/plex_discord_rpc.js",
+  "scripts": {
+    "start": "node src/plex_discord_rpc.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrettotte/Plex-Discord-RPC.git"
+  },
+  "author": "Barrett Otte",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "plex",
+    "rpc"
+  ],
+  "bugs": {
+    "url": "https://github.com/barrettotte/Plex-Discord-RPC/issues"
+  },
+  "homepage": "https://github.com/barrettotte/Plex-Discord-RPC#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord-rpc": "^3.1.1",
+    "ip": "^1.1.5"
+  }
+}
